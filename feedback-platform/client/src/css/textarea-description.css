@@ -1,0 +1,13 @@
+.textarea-comment {
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    resize: none;
+    font-size: 1.2em;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.textarea-comment:focus {
+    outline: none;
+    border: 3px solid rgb(238, 238, 238);
+}

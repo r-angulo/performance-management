@@ -1,0 +1,39 @@
+.box-header {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-description {
+    width: 100%;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 5px;
+    width: 5%;
+}
+
+.image-container>img {
+    width: 100%;
+}
+
+.text-description {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-container {
+        width: 25%;
+    }
+    .text-description {
+        width: 75%;
+    }
+}

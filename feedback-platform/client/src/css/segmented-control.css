@@ -1,0 +1,27 @@
+.segmented-control {
+    display: flex;
+    /* background-color: white; */
+    border: 1px solid white;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: stretch;
+    margin: 10px 0px;
+}
+
+.segmented-control-action {
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #3A3B3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segmented-control-activeTab {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    color: black;
+}

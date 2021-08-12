@@ -1,0 +1,38 @@
+.all-gauge-containers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.one-gauge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauge-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.gauge {
+    border-radius: 100%;
+    border: 10px solid lightgreen;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauge>p {
+    font-size: 3em;
+    font-weight: bolder;
+}

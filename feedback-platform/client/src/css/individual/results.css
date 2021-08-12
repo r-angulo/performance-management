@@ -1,0 +1,30 @@
+/* h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.cell {
+    margin-top: 10px;
+    width: 48%;
+    border: none;
+}
+
+.score {
+    font-size: 2em;
+    color: rgb(11, 243, 11)
+}
+
+.cell:hover {
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .cell {
+        width: 100%;
+    }
+    .simple-container {
+        justify-content: center;
+    }
+} */

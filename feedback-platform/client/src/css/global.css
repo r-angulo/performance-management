@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17181A;
+    font-family: helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    background-color: #232426;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #393A3B;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+.simple-container {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.center-justified {
+    justify-content: center;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+
+/* scrollbar */
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #0f4c75;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #1878b9;
+}
+
+.pointer-on-hover:hover {
+    cursor: pointer;
+}
+
+
+/* file input */
+
+.file-button-wrapper {
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.file-button-wrapper span {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 100%;
+    background: darkgray;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 40px;
+}
+
+.input-file-upload {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* /////// */
